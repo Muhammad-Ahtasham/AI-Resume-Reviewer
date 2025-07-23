@@ -80,9 +80,6 @@ npm run dev
 ## Contributing
 Contributions are welcome! Please open issues or submit pull requests for improvements or bug fixes.
 
-## License
-[MIT](LICENSE) (add a LICENSE file if needed)
-
 ---
 
 **Made with ❤️ for better resumes!**
