@@ -34,7 +34,7 @@ export default function Home() {
     formData.append("resume", file);
 
     try {
-      const res = await axios.post("https://ai-resume-reviewer-xdz5.onrender.com/api/resume/upload", formData, {
+      const res = await axios.post("https://ai-resume-reviewer-94qu.onrender.com/api/resume/upload", formData, {
         // const res = await axios.post("http://localhost:5000/api/resume/upload", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
