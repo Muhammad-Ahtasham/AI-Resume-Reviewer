@@ -1,3 +1,4 @@
+console.log("Resume Route");
 import express from "express";
 import fs from "fs";
 import path from "path";
@@ -22,6 +23,10 @@ router.post("/upload", async (req, res) => {
     const result = await resumeGraph.invoke({ resumeText });
 
     fs.unlinkSync(filePath);
+
+    if (result.error) {
+      return res.status(400).json({ error: result.error });
+    }
 
     res.json({
       sections: result.sections,

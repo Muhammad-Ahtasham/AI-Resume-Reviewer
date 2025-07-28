@@ -5,6 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
+    "dev": "nodemon index.js",
     "build": "echo 'No build step needed for plain Node.js'"
   },
   "keywords": [],
@@ -14,7 +15,6 @@
   "type": "module",
   "dependencies": {
     "@bingsjs/pdf-parse": "^1.1.1",
-    "@langchain/core": "^0.3.66",
     "@langchain/langgraph": "^0.3.11",
     "@langchain/openai": "^0.6.2",
     "cors": "^2.8.5",
